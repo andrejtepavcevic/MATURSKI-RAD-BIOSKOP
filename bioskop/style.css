@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+}
+.naslov{
+    font-size: 25px;
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.naslov a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+}
+.naslov-logo{
+    flex: 5 1 250px;
+    text-align: left;
+    padding-left: 4%;
+    line-height: 70px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+.naslov-novosti{
+    flex: 1 3 200px;
+    border: 1px solid black;
+}
+.naslov-repertoar{
+    flex: 1 3 200px;
+    border: 1px solid black;
+}
+.naslov-bioskopi{
+    flex: 1 3 200px;
+    border: 1px solid black;
+}
+.naslov a:hover{
+    background-color: red;
+}
+#aktuelan{
+    background-color: red;
+}
+#pretraga-forma{
+    background-color: lightgray;
+    padding-top: 15px;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#pretraga-bioskop{
+    height: 40px;
+    width: 120px;
+    margin-right: 5%;
+}
+#pretraga-dan{
+    height: 40px;
+    width: 120px;
+    margin-right: 5%;
+    
+}
+#pretraga-tehnologija{
+    height: 40px;
+    width: 120px;
+    margin-right: 5%;
+}
+#pretraga-dugme{
+    height: 40px;
+    width: 120px;
+}
+.film{
+    width: 60%;
+    height: 250px;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.film-slika{
+    height: 240px;
+    width: 190px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 9%;
+}
+.film-detalji-1{
+    width: 350px;
+    margin-right: 50px;
+}
+.film-detalji-2{
+    margin-right: 2%;
+    width: 500px;
+}

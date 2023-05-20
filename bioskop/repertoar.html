@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioskop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="naslov">
+    <div class="naslov-logo">Cineplex</div>
+    <a href="index.html" class="naslov-novosti">Novosti</a>
+    <a href="repertoar.html" class="naslov-repertoar" id="aktuelan">Repertoar</a>
+    <a href="bioskopi.html" class="naslov-bioskopi">Bioskopi</a>
+   </div>
+    <form action="" id="pretraga-forma">
+        <label for="bioskop">bioskop</label>
+        <select  id="pretraga-bioskop">
+            <option value="">svi</option>
+            <option value="">TC Ušće</option>
+            <option value="">TC Delta</option>
+        </select>
+        <label for="dan">dan</label>
+        <select name="dan" id="pretraga-dan">
+            <option value="">svi</option>
+            <option value="">ponedeljak</option>
+            <option value="">utorak</option>
+            <option value="">sreda</option>
+            <option value="">cetvrtak</option>
+            <option value="">petak</option>
+            <option value="">subota</option>
+            <option value="">nedelja</option>
+        </select>
+        <label for="tehnologija"> tehnologija</label>
+        <select name="tehnologija" id="pretraga-tehnologija">
+            <option value="">sve</option>
+            <option value="">2D</option>
+            <option value="">3D</option>
+            <option value="">4D</option>
+            <option value="">5D</option>
+        </select>
+        <button id="pretraga-dugme" value="">pretraži</button>
+    </form>
+    <div class="film">
+        <img src="slika.png" alt="" class="film-slika">
+        <div class="film-detalji-1">
+            <h1>Andrej Tepavcevic</h1>
+            <p>Andrew Tepa</p>
+            <p>zanr: horor</p>
+            <p>trajanje: 121min</p>
+            <p>premijera: 15.08.2004</p>
+        </div>
+        <div class="film-detalji-2">
+            <br>
+            <br>
+            <br>
+            <p>kratak sadrzaj: Andrej je veseo decko koji voli fudbal.</p>
+            <p>glumci: Andrej Tepavcevic, Vukasin Tepavcevic, Igor Tepavcevic, Snezana Tepavcevic</p>
+        </div>
+    </div>
+</body>
+</html>
